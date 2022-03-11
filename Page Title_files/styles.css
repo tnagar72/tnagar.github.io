@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	border-style: groove;
+	border-color: darkred;
+}
+
+header {
+	background-color: #efefef;
+	margin: 10px 0px;
+	padding: 10px 0px;
+	width: 100%;
+}
+
+nav {
+	background-color: #efefef;
+	margin: 10 px;
+	padding: 10px;
+}
+
+
+li {
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+}
+
+.logo-name {
+	width: 100px;
+
+}
+
+.fp-name {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+    width: 50%;
+    margin: 10px !important;
+    padding: 10px;
+    font-weight: bolder;
+   	font-size: 200%;
+}
+
+.nav-links {
+	float: right;
+}
+
+div {
+	border-color: red;
+	border-style: groove;
+	border-width: 1px;
+}
+
+.profile-pic {
+	padding:  10px;
+	width:  200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.container {
+
+    justify-content: space-around;
+	display: flex;
+	height: 300px;
+	width: 50%;
+	margin: 25px;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.global-div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.SM-links {
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.container2 {
+	justify-content: space-evenly;
+	display: flex;
+	height: 300px;
+	width: 50%;
+	margin: 25px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.resume-buttons {
+	height: 45px;
+	width: 44%;
+	border-radius: 5%;
+	margin: 10px;
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	height: 20px;
+	justify-content: space-between;
+}
+
+.about-me-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 3rem;
+	margin-top: 4rem;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.about-me-image {
+	border-radius: 50%;
+    border: 1px;
+    border-style: groove;
+    border-color: red;
+    width: 240px;
+    height: 240px;
+}
+
+.about-me-description {
+	line-height: 2em;
+	margin: 2em 0em;
+}
+
+.about-me-GIT-button {
+	width: 160px;
+    height: 40px;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.about-me-GIT-button-link {
+	text-decoration: none;
+}
+
+.about-me-subtitle {
+	font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 2em;
+    font-weight: 300;
+}
+
+.project-heading {
+	text-align: center
+}
+
+.project-global-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+	justify-content: space-between;
+    align-content: flex-start;
+}
+
+.project-each-container {
+	margin: 10px;
+    width: 45%;
+    height: 120px;
+    padding: 10px;
+   border-radius: 12px;
+}
+
+.work-experience-column {
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-content: stretch;
+	flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.work-experience-row {
+	height: 160px;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.work-experience-heading {
+	text-align: center;
+}
